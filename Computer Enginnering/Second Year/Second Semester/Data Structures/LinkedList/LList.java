@@ -5,7 +5,7 @@ public class LList {
         head = null;
     }
 
-    public void addfirst(int item){
+    public void addfirst(int item){ // Linkedlist اضافة عنصر في اول ال 
         Node newnode = new Node(item);
         if(head == null)
             head = newnode;
@@ -16,7 +16,7 @@ public class LList {
         }
     }
 
-    public void print(){
+    public void print(){ // Linkedlist طباعة ال 
         Node s = head;
         while(s != null) {
             System.out.println(s.item);
@@ -24,7 +24,7 @@ public class LList {
         }
     }
 
-    public void addlast(int item){
+    public void addlast(int item){ // Linkedlist اضافة عنصر في آخر ال
         Node newnode = new Node(item);
         Node s = head;
         while(s.next != null) {
