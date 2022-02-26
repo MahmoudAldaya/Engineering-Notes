@@ -9,7 +9,7 @@ public class LinkedList2 {
         l1.addlast(5);
         l1.addlast(1);
 
-// Homeworks && 26/2 Lecture: removeLast, removeFirst, addBetween_Values, addBetween_Positions, Size, IsEmpty;
+        // Homeworks && 26/2 Lecture: removeLast, removeFirst, addBetween_Values, addBetween_Positions, Size, IsEmpty;
 
          l1.removeLast();
          l1.removeFirst();
