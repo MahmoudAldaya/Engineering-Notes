@@ -1,4 +1,3 @@
-
 public class DLinkedlist {
     public static void main(String[] args) {
         DLlist d1 = new DLlist();
@@ -15,7 +14,7 @@ public class DLinkedlist {
         // d1.printForward();
         // d1.removeLast();
         //  System.out.println();
-        d1.printForward();
+         d1.printForward();
         // d1.printBackward();
          d1.search(3);
         // d1.search(4);
@@ -27,7 +26,6 @@ public class DLinkedlist {
 }
 
 //Output:
-
 6
 5
 4
