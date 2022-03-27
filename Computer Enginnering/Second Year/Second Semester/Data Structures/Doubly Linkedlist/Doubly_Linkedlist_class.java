@@ -79,7 +79,7 @@ public class DLlist { // إنشاء الكلاس وتعريف المتغيرات
                 s = s.next;
             }
             newnode.next = s.next;
-            newnode.prev = s.prev;
+            newnode.prev = s;
             s.next = newnode;
             s.next.prev = newnode;
         }
