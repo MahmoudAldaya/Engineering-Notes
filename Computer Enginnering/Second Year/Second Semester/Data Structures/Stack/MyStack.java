@@ -9,7 +9,7 @@ public class myStack {
         capacity = 0;
     }
 
-    public void push(int item) { // اضافةقيمة جديدة للستاك
+    public void push(int item) { // اضافة قيمة جديدة للستاك
         if (!IsFull()) {
             top++;
             arr[top] = item;
@@ -23,7 +23,7 @@ public class myStack {
 
     }
 
-    public boolean IsFull(){ // لفحص هب الستاك ممتلئ ام لا
+    public boolean IsFull(){ // لفحص هل الستاك ممتلئ ام لا
         return capacity == arr.length;
     }
 
