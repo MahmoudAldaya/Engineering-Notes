@@ -1,19 +1,18 @@
 public class MainStack {
     public static void main(String[] args) {
-        myStack m1 = new myStack(5);
-        m1.push(2);
-        m1.push(3);
-        m1.push(4);
-        m1.push(5);
-        m1.push(6);
+        myStack s = new myStack(5);
+        s.push(2);
+        s.push(3);
+        s.push(4);
+        s.push(5);
+        s.push(6);
+
+        System.out.println(s.pop());
+        System.out.println(s.pop());
         
-        m1.print();
     }
 }
 
-output will be: 
-6
-5
-4
-3
-2
+Output:
+ 6
+ 5
