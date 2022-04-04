@@ -45,9 +45,4 @@ public class myStack {
         return capacity;
     }
 
-    public void print(){ // لطباعة قيم الستاك
-        for (int i = top; i >= 0; i--) {
-            System.out.println(arr[i]);
-        }
-    }
 }
