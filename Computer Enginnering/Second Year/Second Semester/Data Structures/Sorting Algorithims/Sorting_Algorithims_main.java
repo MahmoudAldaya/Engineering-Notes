@@ -65,3 +65,34 @@ public class Sorting_Algorithims {
         }
     }
 }
+
+Output:
+run:
+---------------------bubble sort-----------------------
+200
+100
+60
+50
+47
+20
+10
+5
+---------------------insertion sort--------------------
+200
+100
+60
+50
+47
+20
+10
+5
+---------------------selection sort--------------------
+200
+100
+60
+50
+47
+20
+10
+5
+BUILD SUCCESSFUL (total time: 0 seconds)
