@@ -29,7 +29,7 @@ public class binarySearch {
 
   
     public static void main(String[] args) {
-        int data [] = {10, 20, 3, 2, 70, 100};
+        int data [] = {2, 3, 10, 20, 70, 100};
         System.out.println(binarySearch1(data, 54));
         System.out.println(binarySearch2(data, 3, 0, 5));
     }
@@ -37,4 +37,4 @@ public class binarySearch {
 
 Output: 
 -1
-2
+1
