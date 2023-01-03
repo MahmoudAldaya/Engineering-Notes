@@ -30,6 +30,7 @@ System.out.println("This fish's name is"+((Fish)a).getName());
 System.out.println("This Cat's name is"+((Cat)p).getName());
 ((Cat)p).walk();
   
+ 
 }
   
 }
